@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="workspace add">
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="add dz2">
+      <change afterPath="$PROJECT_DIR$/logTask_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_3/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_4/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex001_object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex002_object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_3/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_3/Ex002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_3/Ex003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_3/Ex004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex005_MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_1/task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_1/task_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_1/task_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_1/task_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_1/task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_1/task_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_2/task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_2/task_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_2/task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_2/task_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +78,37 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RunManager">
+    <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sem_3.Ex001" />
+      <module name="lessons_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sem_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="les_3.Ex002" />
+      <module name="lessons_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="les_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="task_3" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dz_1.task_3" />
       <module name="lessons_JAVA" />
@@ -74,6 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ex002" />
+        <item itemvalue="Application.Ex001" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687892877417</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dz1">
+      <created>1688157106746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688157106746</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add dz2">
+      <created>1688315704210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688315704210</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,7 +204,9 @@
     <MESSAGE value="les2 add" />
     <MESSAGE value="log add" />
     <MESSAGE value="workspace add" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace add" />
+    <MESSAGE value="dz1" />
+    <MESSAGE value="add dz2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dz2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -146,7 +216,15 @@
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dz_2/task_1.java</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
