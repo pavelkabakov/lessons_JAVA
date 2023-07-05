@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="add dz2">
-      <change afterPath="$PROJECT_DIR$/logTask_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_3/Ex001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_4/Ex001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex001_object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex002_object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex007.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_3/Ex001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_3/Ex002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_3/Ex003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_3/Ex004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/Ex005_MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_4/MyStack.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="add sem4">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_3/array_list.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_2/task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_2/task_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_2/task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_2/task_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_3/Ex001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_3/Ex001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sem_4/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_4/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688315704210</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add sem4">
+      <created>1688321950254</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688321950254</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,7 +193,8 @@
     <MESSAGE value="workspace add" />
     <MESSAGE value="dz1" />
     <MESSAGE value="add dz2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dz2" />
+    <MESSAGE value="add sem4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sem4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
