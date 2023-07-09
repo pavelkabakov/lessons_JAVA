@@ -8,7 +8,7 @@ import java.util.*;
 // Распечатайте содержимое данного множества.
 //3. Создайте TreeSet, заполните его следующими числами: {1, 2, 3, 2, 4, 5, 6, 3}.
 // Распечатайте содержимое данного множества.
-public class Ex001 {
+public class Ex001_HashSet {
     public static void main(String[] args) {
         programm();
     }
@@ -19,8 +19,8 @@ public class Ex001 {
         Set<Integer> set2 = new LinkedHashSet<>(Arrays.asList(arr));
         Set<Integer> set3 = new TreeSet<>(Arrays.asList(arr));
 
-        System.out.println(set1);
-        System.out.println(set2);
-        System.out.println(set3);
+        System.out.println(set1); // [1, 2, 3, 4, 5, 6, 9, 11]
+        System.out.println(set2); // [1, 2, 3, 11, 9, 4, 5, 6]
+        System.out.println(set3); // [1, 2, 3, 4, 5, 6, 9, 11]
     }
 }
