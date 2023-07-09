@@ -1,6 +1,6 @@
 package les_1;
 
-public class les_1 {
+public class les_1_data_type {
     public static void main(String[] args) {
         // ----- типы данных -----
         // short age = 10;
