@@ -4,17 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="add dz3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_4/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_4/Ex000_PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_4/Ex001_Linked_list.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_4/Ex002_Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_4/Ex003_Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_4/Ex004_Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_4/Ex005_postfix_prefix.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="07/07/23">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_5/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_6/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_5/Ex001_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_5/Ex002_HashMapEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_5/Ex003_HashMapBoost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_5/Ex004_TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_5/Ex005_LinkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_5/Ex006_HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_6_1/Ex001_HashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_6_1/Ex002_MathSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_6_1/Ex003_TreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_6_1/Ex004_LinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_6_1/Ex005_HashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_6_2/Ex001_Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_6_2/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_5/Ex001_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_5/Ex001_Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_5/Ex002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_5/Ex003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_5/Ex004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_6/Cat/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_6/Cat/Ex003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_6/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_6/Ex002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_4/Ex001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_4/Ex001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_3/Ex002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex002_ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_3/Ex003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex003_ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_3/Ex005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex005_StringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_3/Ex006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex006_List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_3/Ex007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_3/Ex007_List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688593084295</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add dz4">
+      <created>1688754152526</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688754152526</updated>
+    </task>
+    <task id="LOCAL-00013" summary="07/07/23">
+      <created>1688754267718</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688754267718</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,7 +248,9 @@
     <MESSAGE value="add sem4" />
     <MESSAGE value="add array list" />
     <MESSAGE value="add dz3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dz3" />
+    <MESSAGE value="add dz4" />
+    <MESSAGE value="07/07/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="07/07/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
