@@ -1,7 +1,6 @@
 package sem_4;
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.ListIterator;
 import java.util.Scanner;
 
@@ -10,7 +9,7 @@ import java.util.Scanner;
 //1. Принимает от пользователя и “запоминает” строки.
 //2. Если введено print, выводит строки так, чтобы последняя введенная была первой в списке, а первая - последней.
 //3. Если введено revert, удаляет предыдущую введенную строку из памяти.
-public class Ex003 {
+public class Ex003_LinkedList {
     public static void main(String[] args) {
     task0();
     }

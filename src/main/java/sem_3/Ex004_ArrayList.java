@@ -10,7 +10,7 @@ package sem_3;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ex004 {
+public class Ex004_ArrayList {
     public static void main(String[] args) {
     task04();
     }

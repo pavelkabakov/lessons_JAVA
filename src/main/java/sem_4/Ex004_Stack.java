@@ -9,7 +9,7 @@ import java.util.Stack;
 // содержимое стэка.
 //2) Написать метод, который принимает массив элементов, помещает их в очередь и выводит на консоль
 // содержимое очереди.
-public class Ex004 {
+public class Ex004_Stack {
     public static void main(String[] args) {
         task0();
     }

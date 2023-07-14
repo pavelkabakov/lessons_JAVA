@@ -9,7 +9,7 @@ import java.util.Queue;
 //1) Замерьте время, за которое в ArrayList добавятся 10000 элементов.
 //
 //2) Замерьте время, за которое в LinkedList добавятся 10000 элементов. Сравните с предыдущим.
-public class Ex001 {
+public class Ex001_ArrayList {
     public static void main(String[] args) {
         task0();
     }

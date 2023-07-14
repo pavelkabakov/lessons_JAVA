@@ -6,7 +6,7 @@ import java.util.List;
 
 // Создать список типа ArrayList<String>. Поместить в него как строки,
 // так и целые числа. Пройти по списку, найти и удалить целые числа.
-public class Ex003 {
+public class Ex003_ArrayList {
     public static void main(String[] args) {
         task2();
 

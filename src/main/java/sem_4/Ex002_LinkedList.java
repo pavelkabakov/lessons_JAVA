@@ -2,7 +2,6 @@ package sem_4;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Scanner;
 
 // Реализовать консольное приложение, которое:
@@ -12,7 +11,7 @@ import java.util.Scanner;
 //
 //1. Нужно рассплитить строку по ~, сохранить text в связный список на позицию num.
 //2. Если введено print~num, выводит строку из позиции num в связном списке и удаляет её из списка.
-public class Ex002 {
+public class Ex002_LinkedList {
     public static void main(String[] args) {
         task0();
     }
