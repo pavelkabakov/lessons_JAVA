@@ -7,10 +7,10 @@ import java.util.List;
 public class myNotebook {
     private String manufacturer;
     private String model;
-    private Integer size_RAM;
-    private Integer size_HDD;
-    private Double size_Display;
-    public myNotebook(String manufacturer, String model, int size_RAM, int size_HDD, double size_Display){
+    private String size_RAM;
+    private String size_HDD;
+    private String size_Display;
+    public myNotebook(String manufacturer, String model, String size_RAM, String size_HDD, String size_Display){
         this.manufacturer = manufacturer;
         this.model = model;
         this.size_RAM = size_RAM;
@@ -23,13 +23,13 @@ public class myNotebook {
     public String getModel(){
         return model;
     }
-    public Integer getSize_RAM() {
+    public String getSize_RAM() {
         return size_RAM;
     }
-    public Integer getSize_HDD() {
+    public String getSize_HDD() {
         return size_HDD;
     }
-    public Double getSize_Display() {
+    public String getSize_Display() {
         return size_Display;
     }
     @Override
