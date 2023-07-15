@@ -4,13 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="дополнил семинар 6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_5/myPhoneBook.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="14/04/23 some update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex001/PointMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex002/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex002/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex003_Class/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex003_Class/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex004/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex004/Robot1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex004/Robot2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex004/Robot3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex005/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex005/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex005/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex006/BaseHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex006/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex006/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex006/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex006/Teams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex007/BaseHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex007/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex007/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_7/Ex007/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/EX006/Task_pol_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex001_Class/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex001_Class/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex001_Class/TwoShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex002/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex002/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex002/Ex002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex003/Task_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex004/Task_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/Ex005/Task_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/inheritance/Task_ihn_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/inheritance/Task_inh_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_7/polymorphism/Ex001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_5/Ex001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_5/Ex001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_1/les_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_1/les_1_data_type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_5/Ex001_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_5/З_Passport/Ex001_Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_5/Ex001_Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_5/З_Passport/Ex001_Passport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +48,7 @@
   </component>
   <component name="ChangesViewManager">
     <option name="groupingKeys">
+      <option value="directory" />
       <option value="module" />
     </option>
   </component>
@@ -54,20 +84,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "onboarding.tips.debug.path": "D:/Dev/lessons_JAVA/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\sem_7\EX006" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\sem_7\Ex005" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\sem_7\Ex004" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\sem_7\Ex003" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\sem_7\inheritance" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sem_3.Ex001" />
@@ -229,7 +269,42 @@
       <option name="project" value="LOCAL" />
       <updated>1688919184858</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="закончил задание к 5 сенимару">
+      <created>1688937201083</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688937201083</updated>
+    </task>
+    <task id="LOCAL-00017" summary="переименовал">
+      <created>1688937241616</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688937241616</updated>
+    </task>
+    <task id="LOCAL-00018" summary="10/07/23">
+      <created>1689025157536</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689025157536</updated>
+    </task>
+    <task id="LOCAL-00019" summary="14/04/23 end dz6">
+      <created>1689366965750</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689366965750</updated>
+    </task>
+    <task id="LOCAL-00020" summary="14/04/23 some update">
+      <created>1689366993693</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689366993693</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,7 +323,12 @@
     <MESSAGE value="07/07/23" />
     <MESSAGE value="sem 6 end" />
     <MESSAGE value="дополнил семинар 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="дополнил семинар 6" />
+    <MESSAGE value="закончил задание к 5 сенимару" />
+    <MESSAGE value="переименовал" />
+    <MESSAGE value="10/07/23" />
+    <MESSAGE value="14/04/23 end dz6" />
+    <MESSAGE value="14/04/23 some update" />
+    <option name="LAST_COMMIT_MESSAGE" value="14/04/23 some update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

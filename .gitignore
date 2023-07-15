@@ -4,10 +4,16 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+.idea
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+file.txt
+log.txt
+logTask_2.xml
+pom.xml
+test.bin
 *.iws
 *.iml
 *.ipr
