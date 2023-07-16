@@ -4,78 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="16/04/23 add Ex001">
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex000/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex000/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex001/BaseHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Priest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex002/BaseHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Priest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/BaseHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Priest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Dwarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Gnome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Worgen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex004/BaseHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Dwarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex004/class.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/class.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Priest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Shaman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Paladin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/God.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Priest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Shaman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Paladin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Applications/Notepad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Document/TextDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Doc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Md.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/TextFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Txt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Interface/Saveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex002/IConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex002/IConstd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex003/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex003/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex003/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex003/Test3Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex004/Class_default_metods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex004/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex004/MyIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex005/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex005/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex005/EngineInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex005/Main.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="16/04/23 add sem 8">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_1/catOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_1/myCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_2/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_8/Ex001_Interface/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex001_Interface/Class_Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_8/Ex001_Interface/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex001_Interface/Class_Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_8/Ex001_Interface/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_8/Ex001_Interface/program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689492801758</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="16/04/23 add sem 8">
+      <created>1689497436740</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1689497436740</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -380,7 +322,8 @@
     <MESSAGE value="14/04/23 some update" />
     <MESSAGE value="15/04/23 end sem_7" />
     <MESSAGE value="16/04/23 add Ex001" />
-    <option name="LAST_COMMIT_MESSAGE" value="16/04/23 add Ex001" />
+    <MESSAGE value="16/04/23 add sem 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="16/04/23 add sem 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
