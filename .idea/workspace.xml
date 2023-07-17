@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="16/04/23 add dz_7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibrary.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="17/04/23 add dz_7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/BookInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibraryInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -75,6 +78,9 @@
       <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006\Document" />
       <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006\Applications" />
       <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="dz_7.Task_3" />
     </key>
   </component>
   <component name="RunManager">
@@ -301,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689536755968</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="17/04/23 add dz_7">
+      <created>1689544322212</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1689544322212</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,7 +342,8 @@
     <MESSAGE value="16/04/23 add Ex001" />
     <MESSAGE value="16/04/23 add sem 8" />
     <MESSAGE value="16/04/23 add dz_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="16/04/23 add dz_7" />
+    <MESSAGE value="17/04/23 add dz_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="17/04/23 add dz_7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

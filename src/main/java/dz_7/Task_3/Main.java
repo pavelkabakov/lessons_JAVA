@@ -28,12 +28,12 @@ package dz_7.Task_3;
 public class Main {
 
     public static void main(String[] args) {
-        Book book1 = new Book("Агата Кристи","Десять негритят", true);
-        Book book2 = new Book("Артур Конан Дойл","Шерлок Холмс", false);
-        Book book3 = new Book("Агата Кристи","Эркюль Пуаро", true);
+        Book book1 = new Book("Автор 1","Книга 1", true);
+        Book book2 = new Book("Автор 2","Книга 2", false);
+        Book book3 = new Book("Автор 3","Книга 3", true);
         Book book4 = new Book("Автор 4","Книга 4", false);
-        Book book5 = new Book("Автор 5","Книга 5", true);
-        Book book6 = new Book("Автор 6","Книга 6", false);
+        Book book5 = new Book("Автор 2","Книга 5", true);
+        Book book6 = new Book("Автор 2","Книга 6", false);
 
         System.out.println("работа с myLibrary");
         MyLibrary library = new MyLibrary();
@@ -45,9 +45,17 @@ public class Main {
         library.addBook(book6);
         System.out.println("---все книги---");
         library.displayAllBooks();
+        System.out.println("---удалили 4,5---");
+        library.removeBook(book4);
+        library.removeBook(book5);
+        library.displayAllBooks();
+        System.out.println("---добавили 4,5---");
+        library.addBook(book4);
+        library.addBook(book5);
+        library.displayAllBooks();
         System.out.println("---книги в наличии---");
         library.displayAvailableBooks(true);
         System.out.println("---книги Автора на выбор---");
-        library.searchByAuthor("Агата Кристи");
+        library.searchByAuthor("Автор 2");
     }
 }
