@@ -1,6 +1,6 @@
-package dz_7.Task_3;
+package dz_7.Task_4;
 
-public interface BookInterface {
+public interface Book {
     String getTitle();
 
     void setTitle(String title);

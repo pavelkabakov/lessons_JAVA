@@ -1,20 +1,19 @@
 package dz_7.Task_3;
 
 import java.util.ArrayList;
-import java.util.ListIterator;
 
-public class MyLibrary implements MyLibraryInterface {
+public class LibraryManager implements Library {
 
-    ArrayList<Book> catalog = new ArrayList<Book>();
+    private ArrayList<BookImpl> catalog = new ArrayList<BookImpl>();
 
     @Override
-    public void addBook(Book myBook) {
-        catalog.add(myBook);
+    public void addBook(BookImpl myBookImpl) {
+        catalog.add(myBookImpl);
     }
 
     @Override
-    public void removeBook(Book myBook) {
-        catalog.remove(myBook);
+    public void removeBook(BookImpl myBookImpl) {
+        catalog.remove(myBookImpl);
     }
 
     @Override

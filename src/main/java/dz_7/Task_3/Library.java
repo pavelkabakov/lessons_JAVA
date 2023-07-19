@@ -1,10 +1,10 @@
 package dz_7.Task_3;
 
-public interface MyLibraryInterface {
+public interface Library {
 
-    void addBook(Book myBook);
+    void addBook(BookImpl myBookImpl);
 
-    void removeBook(Book myBook);
+    void removeBook(BookImpl myBookImpl);
 
     void displayAvailableBooks(boolean available);
 

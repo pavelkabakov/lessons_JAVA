@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="17/04/23 add dz_7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/BookInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibraryInterface.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="17/04/23 add interface to dz_7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/BookImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/BookImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/MyLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/BookInterface.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/LibraryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibraryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,10 +86,12 @@
       <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="dz_7.Task_2" />
+      <recent name="dz_7.Task_1" />
       <recent name="dz_7.Task_3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.task_3">
     <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sem_3.Ex001" />
       <module name="lessons_JAVA" />
@@ -314,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689544322212</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="17/04/23 add interface to dz_7">
+      <created>1689626836448</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1689626836448</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -343,7 +358,8 @@
     <MESSAGE value="16/04/23 add sem 8" />
     <MESSAGE value="16/04/23 add dz_7" />
     <MESSAGE value="17/04/23 add dz_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="17/04/23 add dz_7" />
+    <MESSAGE value="17/04/23 add interface to dz_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="17/04/23 add interface to dz_7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
