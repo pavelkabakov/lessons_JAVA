@@ -4,19 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="17/04/23 add interface to dz_7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/BookImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/BookImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_4/MyLibrary.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="dz_9 create">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_11/Task1/CalculatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_11/Task1/CalculatorModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_11/Task1/CalculatorPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dz_11/Task1/CalculatorView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex001_1SRP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex001_2SRP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex002_1OCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex002_2OCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex003_1LSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex003_2LSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex004_1ISP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex004_2ISP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex005_1DIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex005_2DIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/D_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/D_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/O_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/O_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/S/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/S/AnimalActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/BookInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/LibraryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/MyLibraryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_7/Task_3/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex000/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex000/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex000/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex000/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/BaseHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/Druid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/BaseHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/Druid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/BaseHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/Druid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/alliance/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Gnome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/alliance/Gnome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/alliance/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Worgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/alliance/Worgen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/BaseHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/Druid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/class.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/class.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/class.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/class.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Healers/Druid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Healers/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Healers/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Shaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Healers/Shaman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Warriors/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Paladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Warriors/Paladin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Warriors/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/God.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Healers/Druid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Healers/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Healers/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Shaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Healers/Shaman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Warriors/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Paladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Warriors/Paladin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Warriors/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Applications/Notepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Applications/Notepad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Document/TextDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Document/TextDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Format/Doc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Md.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Format/Md.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/TextFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Format/TextFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Txt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Format/Txt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Interface/Saveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Interface/Saveable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sem_9/Task7/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_9/Task7/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +127,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2RkjssnQAYShXyergqAjlHl3umQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -70,20 +146,28 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/dz_11/Task1&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\dz_11\Task1" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_12" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\dz_8" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\dz_9" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_11" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006\Interface" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006\Format" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006\Document" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006\Applications" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_8\Ex006" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\book_shild\Chapter4" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\sem_9" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\Les_9\Ex007" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\Les_9\Ex006" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\Les_9\Ex005" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="dz_7.Task_2" />
@@ -91,7 +175,7 @@
       <recent name="dz_7.Task_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task_3">
+  <component name="RunManager">
     <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sem_3.Ex001" />
       <module name="lessons_JAVA" />
@@ -329,25 +413,109 @@
       <option name="project" value="LOCAL" />
       <updated>1689626836448</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="19/07/23">
+      <created>1689792704160</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1689792704160</updated>
+    </task>
+    <task id="LOCAL-00028" summary="19/07/23 add Exercise in Lesson 9">
+      <created>1689793640192</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1689793640192</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add sem_9">
+      <created>1690639146594</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639146594</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add sem_10">
+      <created>1690639164450</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639164450</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add sem_11">
+      <created>1690639179288</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639179288</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add les_10">
+      <created>1690639201701</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639201701</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add les_9">
+      <created>1690639218352</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639218352</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add les_11">
+      <created>1690639231525</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639231525</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add java book code shild">
+      <created>1690639268269</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639268269</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add example of abstract class">
+      <created>1690639295440</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639295440</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add dz 10">
+      <created>1690647754618</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1690647754618</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add Ex009">
+      <created>1690647773032</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1690647773032</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add dz_8">
+      <created>1690647796299</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1690647796299</updated>
+    </task>
+    <task id="LOCAL-00040" summary="dz_9 create">
+      <created>1690647819481</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1690647819481</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="init" />
-    <MESSAGE value="task1 end" />
-    <MESSAGE value="les2 add" />
-    <MESSAGE value="log add" />
-    <MESSAGE value="workspace add" />
-    <MESSAGE value="dz1" />
-    <MESSAGE value="add dz2" />
-    <MESSAGE value="add sem4" />
-    <MESSAGE value="add array list" />
-    <MESSAGE value="add dz3" />
-    <MESSAGE value="add dz4" />
-    <MESSAGE value="07/07/23" />
-    <MESSAGE value="sem 6 end" />
-    <MESSAGE value="дополнил семинар 6" />
     <MESSAGE value="закончил задание к 5 сенимару" />
     <MESSAGE value="переименовал" />
     <MESSAGE value="10/07/23" />
@@ -359,7 +527,21 @@
     <MESSAGE value="16/04/23 add dz_7" />
     <MESSAGE value="17/04/23 add dz_7" />
     <MESSAGE value="17/04/23 add interface to dz_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="17/04/23 add interface to dz_7" />
+    <MESSAGE value="19/07/23" />
+    <MESSAGE value="19/07/23 add Exercise in Lesson 9" />
+    <MESSAGE value="add sem_9" />
+    <MESSAGE value="add sem_10" />
+    <MESSAGE value="add sem_11" />
+    <MESSAGE value="add les_10" />
+    <MESSAGE value="add les_9" />
+    <MESSAGE value="add les_11" />
+    <MESSAGE value="add java book code shild" />
+    <MESSAGE value="add example of abstract class" />
+    <MESSAGE value="add dz 10" />
+    <MESSAGE value="add Ex009" />
+    <MESSAGE value="add dz_8" />
+    <MESSAGE value="dz_9 create" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz_9 create" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

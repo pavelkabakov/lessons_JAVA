@@ -10,7 +10,7 @@ public class CalculatorView {
         scanner = new Scanner(System.in);
     }
 
-    public void displayResult(int result) {
+    public void displayResult(double result) {
         System.out.println("Результат: " + result);
     }
 
@@ -19,8 +19,8 @@ public class CalculatorView {
         return scanner.nextLine();
     }
 
-    public int getOperand(){
+    public double getOperand(){
         System.out.println("Введите операнд (число): ");
-        return Integer.parseInt(scanner.nextLine());
+        return Double.parseDouble(scanner.nextLine());
     }
 }

@@ -7,8 +7,8 @@ public class CalculatorMain {
         CalculatorController controller = new CalculatorController(model, view);
 
         String operation = view.getOperation();
-        int num1 = view.getOperand();
-        int num2 = view.getOperand();
+        double num1 = view.getOperand();
+        double num2 = view.getOperand();
 
         controller.perfomeOperation(operation, num1, num2);
     }
