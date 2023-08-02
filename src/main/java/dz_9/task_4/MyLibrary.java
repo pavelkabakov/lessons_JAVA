@@ -1,4 +1,4 @@
-package dz_9.Task_4;
+package dz_9.task_4;
 
 import java.util.ArrayList;
 import java.util.List;

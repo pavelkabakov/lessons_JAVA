@@ -1,6 +1,8 @@
-package dz_9.Task_4;
+package dz_9.task_4;
 
-public class BookImpl implements Book {
+import java.util.Iterator;
+
+public class BookImpl implements Book, Iterator<String> {
 
     private String title;
     private String author;
@@ -50,5 +52,25 @@ public class BookImpl implements Book {
     @Override
     public String getBookInfo() {
         return String.format("Title: %s, Author: %s, Available: %b", title, author, available);
+    }
+
+    // добавил для реализации Iterator
+    int index;
+
+    @Override
+    public boolean hasNext() {
+        return index++ < 3;
+    }
+
+    @Override
+    public String next() {
+        switch (index){
+            case 1:
+                return String.format("Title: %s ", title);
+            case 2:
+                return String.format("Author: %s ", author);
+            default:
+                return String.format("Available: %b ",available);
+            }
     }
 }

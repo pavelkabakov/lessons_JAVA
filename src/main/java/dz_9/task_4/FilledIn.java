@@ -1,4 +1,4 @@
-package dz_9.Task_4;
+package dz_9.task_4;
 
 public interface FilledIn<T> {
 }

@@ -1,7 +1,13 @@
-package dz_9.Task_4;
+package dz_9.task_4;
 
 import dz_7.Task_3.BookImpl;
 import dz_7.Task_3.LibraryManager;
+import java.util.Iterator;
+
+/**
+ * Реализовать любой выбранный интерфейс из списка (Iterator<E>, Iterable<E>, Comparator<E>, Comparable<E>)
+ * в предыдущем ДЗ, предоставив собственную реализацию.
+ */
 
 public class Main {
     public static void main(String[] args) {
@@ -34,6 +40,13 @@ public class Main {
         library.displayAvailableBooks(true);
         System.out.println("---книги Автора на выбор---");
         library.searchByAuthor("Автор 2");
+
+        System.out.println("Реализация Iterator"); // Пытыюсь реализовать Iterator
+        Iterator<String> iterator = (Iterator<String>) bookImpl1;
+
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
     }
 
 }
