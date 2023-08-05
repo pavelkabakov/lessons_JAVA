@@ -41,12 +41,12 @@ public class Main {
         System.out.println("---книги Автора на выбор---");
         library.searchByAuthor("Автор 2");
 
-        System.out.println("Реализация Iterator"); // Пытыюсь реализовать Iterator
-        Iterator<String> iterator = (Iterator<String>) bookImpl1;
-
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
+//        System.out.println("Реализация Iterator"); // Пытыюсь реализовать Iterator
+//        Iterator<String> iterator = (Iterator<String>) bookImpl1;
+//
+//        while (iterator.hasNext()){
+//            System.out.println(iterator.next());
+//        }
     }
 
 }
