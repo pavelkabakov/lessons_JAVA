@@ -1,4 +1,4 @@
-package Les_9_std_interface.Ex002;
+package Les_9_std_interface.Ex002_Iterator;
 
 import java.util.Iterator;
 
