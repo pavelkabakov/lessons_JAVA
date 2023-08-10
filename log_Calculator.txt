@@ -1,0 +1,8 @@
+авг. 10, 2023 10:22:21 PM dz_13_itog.CalculatorMain main
+INFO: Создание объекта model
+авг. 10, 2023 10:22:21 PM dz_13_itog.CalculatorMain main
+INFO: Создание объекта view
+авг. 10, 2023 10:22:21 PM dz_13_itog.CalculatorMain main
+INFO: Создание объекта controller
+авг. 10, 2023 10:22:26 PM dz_13_itog.CalculatorMain main
+INFO: Работа программы

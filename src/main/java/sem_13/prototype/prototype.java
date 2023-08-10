@@ -21,7 +21,7 @@ package sem_13.prototype;
 // Конкретная реализация прототипа
  class Circle extends Shape {
     public Circle() {
-        setType("Circle");
+        setType("ICircle");
     }
 }
 

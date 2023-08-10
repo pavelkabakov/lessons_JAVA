@@ -1,4 +1,4 @@
-июн. 27, 2023 10:05:00 PM les_2.Ex005_Logger main
+авг. 10, 2023 9:49:02 PM dz_13_itog.CalculatorMain main
 WARNING: Тестовое логирование 1
-июн. 27, 2023 10:05:00 PM les_2.Ex005_Logger main
+авг. 10, 2023 9:49:02 PM dz_13_itog.CalculatorMain main
 INFO: Тестовое логирование 2
