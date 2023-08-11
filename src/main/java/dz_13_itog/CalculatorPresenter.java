@@ -20,7 +20,7 @@ public class CalculatorPresenter {
         return instance;
     }
 
-    public void perfomeOperation(String operation, double num1, double num2){
+    public void perfomeOperation(String operation, double num1, double num2) throws Exception {
         switch (operation){
             case "+":
                 model.add(num1, num2);

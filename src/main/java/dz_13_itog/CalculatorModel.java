@@ -27,8 +27,8 @@ public class CalculatorModel {
         result = num1 - num2;
     }
 
-    public void divide(double num1, double num2) {
-        try {
+    public void divide(double num1, double num2) throws Exception {
+//        try {
             if (num2 != 0) {
                 result = num1 / num2;
             } else {
@@ -36,10 +36,10 @@ public class CalculatorModel {
                 throw new Exception("На ноль делить нельзя!");
             }
 
-        } catch (Exception exception) {
-            System.out.println(exception.getMessage());
-            result = 0;
-        }
+//        } catch (Exception exception) {
+//            System.out.println(exception.getMessage());
+//            result = 0;
+//        }
     }
 
     public void multiply (double num1, double num2){

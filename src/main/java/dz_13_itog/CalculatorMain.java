@@ -46,7 +46,7 @@ public class CalculatorMain {
 
         logger.info("Работа программы");
         try {
-            controller.perfomeOperation(operation, num1, num2); // перехват исключения пока неработает, нужно доделать
+            controller.perfomeOperation(operation, num1, num2); // перехват исключения
         } catch (Exception exception){
             System.out.println(exception.getMessage());
             logger.log(Level.WARNING, exception.getMessage());
