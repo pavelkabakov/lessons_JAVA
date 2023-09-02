@@ -4,92 +4,244 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="dz_9 create">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_11/Task1/CalculatorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_11/Task1/CalculatorModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_11/Task1/CalculatorPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz_11/Task1/CalculatorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex001_1SRP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex001_2SRP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex002_1OCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex002_2OCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex003_1LSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex003_2LSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex004_1ISP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex004_2ISP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex005_1DIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/les_12_SOLID/Ex005_2DIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/D_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/D_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/L_5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/O_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/O_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/S/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sem_12/S/AnimalActions.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="доделал перехват исключений">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_1_1/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_1_2/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_1_3/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_2/task_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_2/task_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_2/task_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_2/task_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex001/CustomArraySizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex001/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex002/CustomArrayException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex002/MyArrayDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex002/MyArraySizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex002/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex002/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex002/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex003/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex004/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex004/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex004/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex004/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex005/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex005/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex005/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ex005/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/dz4/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/CountDayArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/DataType.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/DuoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/ThreeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/TwoDAgain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter03/TwoDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter04/BasicMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter04/BitLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter04/ByteLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter04/ByteShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter04/HexByte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter04/Modulus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter04/OpEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter04/Ternary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/BreakToLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/BreakWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/ChoiceMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/Continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/ContinueLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/ForEachDuoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/NoBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/Return.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter05/SampleSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter06/BoxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter06/BoxDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter06/BoxDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter06/BoxDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter06/BoxDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter06/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter06/TestStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/BoxDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/CallByValue02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/CallObjLink03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/InnerClassDemo11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/InnerClassDemo12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/InnerClassDemo13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/OverloadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/OverloadDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/Recursion05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/Recursion06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/ReturnObject04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/StackTest08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/StackTest10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/StringDemo14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/StringDemo15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/TestAccess07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/UseArrayToPassVariableToMethod16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/UseStatic09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/UseStaticByName09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/VarArgs17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/VarArgs18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/VarArgs19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter07/VarArgs20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/AbstractDemo11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/CallingConstr06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/DemoBoxWeight02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/DemoBoxWeight03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/DemoShipment05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/DynamicMethodDispatching09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/FigureFindArea10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/OverloadMethod08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/OverrideMethod07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/ReferenceVariables04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/SimpleInheritance01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter08/UseSuper05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/DefaultMethods/DefaultMethMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/DefaultMethods/DefaultMethMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/ExtendsInterfaces/IFExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Interfaces/Callback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Interfaces/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Interfaces/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Interfaces/TestIface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Interfaces/TestIface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/NestedInterfaces/NestedIFDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Stack/IFDynStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Stack/IFFixedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Stack/IFTestЗ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/Stack/IntStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/VariablesInInterfaces/AskМe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/mypack/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/mypack02/TestBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/pkg01/Derived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/pkg01/MainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/pkg01/Protection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/pkg01/SamePackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/pkg02/MainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/pkg02/OtherPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter09/pkg02/Protection2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/ExampleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/Exc0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/Exc2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/HandleError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/MethNestedTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/MultipleCatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/NestedTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/ReturnCatchFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/SuperSubCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/SuperSubCatch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/ThrowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter10/ThrowsFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package00/CurrentThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package01/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package02/ExtendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package03/MultiThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package04/DemoJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package05/Synch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package06/Synch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package07/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package08/PCFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package09/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter11/Package10/SuspendResume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package01/BRRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package01/BRReadLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package01/PrintWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package01/TinyEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/CopyFileAutoClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/FileWriterReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/ReadWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/ShowFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/ShowFile2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/ShowFile3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/ShowFileAutoClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package02/WriteReadSaveToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package03/AssertDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter13/Package03/InstanceOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package01/GenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package02/NonGenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package03/TwoGenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package04/StatsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package05/BoundedWildcard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package05/WildcardDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package06/GenConsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package06/GenIFDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package06/GenMethDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package07/HierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package08/HierDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package09/HierDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter14/Package10/OverrideGenMeth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package01/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package01/LambdaDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package02/FactorialUsingLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package02/StringReversalLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package03/GenericFunctionalinterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package04/LambdasAsArgumentsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package05/LambdaExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package06/VarCapture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package07/MethodRefDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package08/ArrayListUseMethRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package08/GenericMethodRefDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package08/InstanceMethWithObjectRefDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package08/MethodRefDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package09/ConstructorRefDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package09/FactorialUseFunctionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_beginners/charter15/Package09/FactoryConstructorRefDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_02/BlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_02/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_02/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_02/ForTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_02/IfSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_03/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_03/BoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_03/CharDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_03/CharDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book_shild_java/charter_03/Light.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex000/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex000/Foo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex000/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex000/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/BaseHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/Druid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/Magician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/Priest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex001/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex001/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/BaseHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/Druid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/Magician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/Priest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex002/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex002/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/BaseHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/Druid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/Magician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/Priest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/alliance/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Gnome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/alliance/Gnome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/alliance/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex003/alliance/Worgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex003/alliance/Worgen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/BaseHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/Druid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex004/class.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex004/class.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/class.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/class.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Healers/Druid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Healers/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Healers/Priest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Healers/Shaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Healers/Shaman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Warriors/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Paladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Warriors/Paladin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v1/Warriors/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v1/Warriors/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/God.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Healers/Druid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Healers/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Healers/Priest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Healers/Shaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Healers/Shaman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Warriors/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Paladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Warriors/Paladin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex005/v2/Warriors/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex005/v2/Warriors/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Applications/Notepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Applications/Notepad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Document/TextDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Document/TextDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Format/Doc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Md.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Format/Md.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/TextFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Format/TextFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Format/Txt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Format/Txt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Interface/Saveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Interface/Saveable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/les_8/Ex006/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/les_8_abstractions/Ex006/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_11/Ex001/CalculatorView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sem_9/Task7/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sem_9/Task7/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_Calculator.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log_Calculator.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap10Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap11Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap12Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap13Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap14Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap16Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap17Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap1Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap2Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap3Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap5Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap6Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap7Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap8Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chap9Ans.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter1.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter10.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter11.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter12.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter13.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter14.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter15.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter16.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter17.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter2.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter3.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter4/Chapter4.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter4/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter5.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter6.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter7.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter8.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book_shild/Chapter9.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz_13_itog/CalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz_13_itog/CalculatorMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +279,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -138,29 +293,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/dz_11/Task1&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "OverrideImplement.generate.javadoc": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Dev/lessons_JAVA/src/main/java/Exception/ex005",
+    "onboarding.tips.debug.path": "D:/Dev/lessons_JAVA/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\dz_11\Task1" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_12" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\dz_8" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\dz_9" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\les_11" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\Exception\ex005" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\Exception\ex004" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\Exception\ex002" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\Exception\ex001" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\book_shild_12\charter16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dev\lessons_JAVA\src\main\java\book_shild\Chapter4" />
@@ -170,9 +326,13 @@
       <recent name="D:\Dev\lessons_JAVA\src\main\java\Les_9\Ex005" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="dz_12.task_2" />
       <recent name="dz_7.Task_2" />
       <recent name="dz_7.Task_1" />
       <recent name="dz_7.Task_3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Les_9_std_interface.Ex002.ExBeverage" />
     </key>
   </component>
   <component name="RunManager">
@@ -202,6 +362,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.dz_2.task_4.Main" />
+      <module name="lessons_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exception.dz_2.task_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="task_3" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dz_1.task_3" />
       <module name="lessons_JAVA" />
@@ -217,6 +390,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ex002_ArrayList" />
         <item itemvalue="Application.Ex001" />
       </list>
@@ -230,41 +404,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687801182901</updated>
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1687801278320</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1687801278320</updated>
-    </task>
-    <task id="LOCAL-00002" summary="init">
-      <created>1687804606451</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1687804606451</updated>
-    </task>
-    <task id="LOCAL-00003" summary="task1 end">
-      <created>1687813523049</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1687813523049</updated>
-    </task>
-    <task id="LOCAL-00004" summary="les2 add">
-      <created>1687892771126</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1687892771126</updated>
-    </task>
-    <task id="LOCAL-00005" summary="log add">
-      <created>1687892810179</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1687892810179</updated>
     </task>
     <task id="LOCAL-00006" summary="workspace add">
       <created>1687892877417</created>
@@ -511,23 +650,109 @@
       <option name="project" value="LOCAL" />
       <updated>1690647819481</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add dz_11">
+      <created>1690923392862</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1690923392862</updated>
+    </task>
+    <task id="LOCAL-00042" summary="01/08/23">
+      <created>1690923447976</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1690923447976</updated>
+    </task>
+    <task id="LOCAL-00043" summary="03/08/23">
+      <created>1691010168767</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1691010168767</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add sem 13">
+      <created>1691225072209</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1691225072209</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add les 9">
+      <created>1691225113622</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1691225113622</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add dz 9">
+      <created>1691225130113</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1691225130113</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add dz 11">
+      <created>1691225147825</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1691225147825</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add dz 12">
+      <created>1691225163814</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1691225163814</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add dz 13">
+      <created>1691225176001</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1691225176001</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add dz 12">
+      <created>1691268339186</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1691268339186</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add dz 13 итоговое">
+      <created>1691695667647</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1691695667647</updated>
+    </task>
+    <task id="LOCAL-00052" summary="10.08.23">
+      <created>1691695702832</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1691695702832</updated>
+    </task>
+    <task id="LOCAL-00053" summary="10.08.23">
+      <created>1691696724301</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1691696724303</updated>
+    </task>
+    <task id="LOCAL-00054" summary="доделал перехват исключений">
+      <created>1691781266662</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1691781266662</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="закончил задание к 5 сенимару" />
-    <MESSAGE value="переименовал" />
-    <MESSAGE value="10/07/23" />
-    <MESSAGE value="14/04/23 end dz6" />
-    <MESSAGE value="14/04/23 some update" />
-    <MESSAGE value="15/04/23 end sem_7" />
-    <MESSAGE value="16/04/23 add Ex001" />
-    <MESSAGE value="16/04/23 add sem 8" />
-    <MESSAGE value="16/04/23 add dz_7" />
-    <MESSAGE value="17/04/23 add dz_7" />
-    <MESSAGE value="17/04/23 add interface to dz_7" />
-    <MESSAGE value="19/07/23" />
     <MESSAGE value="19/07/23 add Exercise in Lesson 9" />
     <MESSAGE value="add sem_9" />
     <MESSAGE value="add sem_10" />
@@ -541,7 +766,19 @@
     <MESSAGE value="add Ex009" />
     <MESSAGE value="add dz_8" />
     <MESSAGE value="dz_9 create" />
-    <option name="LAST_COMMIT_MESSAGE" value="dz_9 create" />
+    <MESSAGE value="add dz_11" />
+    <MESSAGE value="01/08/23" />
+    <MESSAGE value="03/08/23" />
+    <MESSAGE value="add sem 13" />
+    <MESSAGE value="add les 9" />
+    <MESSAGE value="add dz 9" />
+    <MESSAGE value="add dz 11" />
+    <MESSAGE value="add dz 13" />
+    <MESSAGE value="add dz 12" />
+    <MESSAGE value="add dz 13 итоговое" />
+    <MESSAGE value="10.08.23" />
+    <MESSAGE value="доделал перехват исключений" />
+    <option name="LAST_COMMIT_MESSAGE" value="доделал перехват исключений" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
