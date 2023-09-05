@@ -1,4 +1,4 @@
-//package algorithm.dz4;
+//package algorithm.dz3_linked_list;
 //
 ///*
 //В классе Answer реализуйте метод reverse, который принимал бы на вход односвязный список и разворачивал
