@@ -23,7 +23,7 @@ public class parseString {
      * @return
      * @throws InputMismatchException
      */
-    public static boolean analiseInputData(String[] words) throws InputMismatchException {
+    public static void analiseInputData(String[] words) throws InputMismatchException {
         try {
             if (words.length != 6) {
                 throw new InputMismatchException("Введены неправильные данные");
@@ -39,7 +39,7 @@ public class parseString {
         } catch (InputMismatchException e) {
             throw new InputMismatchException(e.getMessage());
         }
-        return true;
+
     }
 
     public static boolean analiseName(String input) {

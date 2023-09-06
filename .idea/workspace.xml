@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="ДЗ Урок 2. Исключения и их обработка">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_3/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_3/inputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_3/parseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_3/userData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/matches/matches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/split/split.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="05/09/23">
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_3/saveInFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileInputStream/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileOutputStream/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileReader/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileReader/Program2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileWriter/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Иванов.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Петров.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/dz4/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/dz3_linked_list/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exception/dz_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exception/dz_3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,13 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687801182901</updated>
-    </task>
-    <task id="LOCAL-00007" summary="dz1">
-      <created>1688157106746</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1688157106746</updated>
     </task>
     <task id="LOCAL-00008" summary="add dz2">
       <created>1688315704210</created>
@@ -534,12 +530,18 @@
       <option name="project" value="LOCAL" />
       <updated>1693686755666</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="05/09/23">
+      <created>1693946085537</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1693946085537</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add sem_9" />
     <MESSAGE value="add sem_10" />
     <MESSAGE value="add sem_11" />
     <MESSAGE value="add les_10" />
@@ -564,7 +566,8 @@
     <MESSAGE value="10.08.23" />
     <MESSAGE value="доделал перехват исключений" />
     <MESSAGE value="ДЗ Урок 2. Исключения и их обработка" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Урок 2. Исключения и их обработка" />
+    <MESSAGE value="05/09/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="05/09/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -577,11 +580,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dz_2/task_1.java</url>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Exception/dz_3/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
