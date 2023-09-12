@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="06/09/23">
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="06/09/23 v2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/HashMap/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/HashMap/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/les_3_linked_List/ex001/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/les_4/Node/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_1/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_2/HashTable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_3/HashTable3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_4/HashTable4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_6/HashTable6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_7/Tree7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/dz3_linked_list/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/dz3_linked_list/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Петров.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Петров.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +95,11 @@
       <recent name="D:\Dev\lessons_JAVA\src\main\java\book_shild_12\charter16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\algorithm\HashMap" />
       <recent name="D:\Dev\lessons_JAVA\src\main\java\book_shild\Chapter4" />
       <recent name="D:\Dev\lessons_JAVA\src\main\java\sem_9" />
       <recent name="D:\Dev\lessons_JAVA\src\main\java\Les_9\Ex007" />
       <recent name="D:\Dev\lessons_JAVA\src\main\java\Les_9\Ex006" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\Les_9\Ex005" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="dz_12.task_2" />
@@ -97,6 +108,10 @@
       <recent name="dz_7.Task_3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algorithm.sem_4.task_6" />
+      <recent name="algorithm.sem_4.task_4" />
+      <recent name="algorithm.sem_4.task_3" />
+      <recent name="algorithm.sem_4.task_2" />
       <recent name="Les_9_std_interface.Ex002.ExBeverage" />
     </key>
   </component>
@@ -183,13 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687801182901</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add sem4">
-      <created>1688321950254</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1688321950254</updated>
     </task>
     <task id="LOCAL-00010" summary="add array list">
       <created>1688593067967</created>
@@ -527,12 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1694033962749</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="06/09/23 v2">
+      <created>1694034658701</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1694034658701</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add sem_11" />
     <MESSAGE value="add les_10" />
     <MESSAGE value="add les_9" />
     <MESSAGE value="add les_11" />
@@ -557,7 +571,8 @@
     <MESSAGE value="ДЗ Урок 2. Исключения и их обработка" />
     <MESSAGE value="05/09/23" />
     <MESSAGE value="06/09/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="06/09/23" />
+    <MESSAGE value="06/09/23 v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="06/09/23 v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
