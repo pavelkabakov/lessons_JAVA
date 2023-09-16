@@ -4,20 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="06/09/23 v2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/HashMap/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/HashMap/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/les_3_linked_List/ex001/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/les_4/Node/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_1/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_2/HashTable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_3/HashTable3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_4/HashTable4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_6/HashTable6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_4/task_7/Tree7.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="14/09/23">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/Tree2/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/Tree2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/ex001/LLRBTREE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_2/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/EmployeeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/SortDirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/Lottery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/PrizeStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/ToysStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/ToysStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/dz3_linked_list/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/dz3_linked_list/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Петров.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Петров.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +83,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/Exception/ex005&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/algorithm/ex001&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Dev/lessons_JAVA/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -88,11 +93,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\algorithm\ex001" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\algorithm\sem_1" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\algorithm\sem_2" />
+      <recent name="D:\Dev\lessons_JAVA\src\main\java\algorithm\sem_3" />
       <recent name="D:\Dev\lessons_JAVA\src\main\java\Exception\ex005" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\Exception\ex004" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\Exception\ex002" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\Exception\ex001" />
-      <recent name="D:\Dev\lessons_JAVA\src\main\java\book_shild_12\charter16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dev\lessons_JAVA\src\main\java\algorithm\HashMap" />
@@ -115,7 +120,7 @@
       <recent name="Les_9_std_interface.Ex002.ExBeverage" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.task_3">
     <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sem_3.Ex001" />
       <module name="lessons_JAVA" />
@@ -168,6 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sem_3.Program" />
+      <module name="lessons_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sem_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="task_3" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dz_1.task_3" />
       <module name="lessons_JAVA" />
@@ -183,6 +201,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.Exception.dz_3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ex002_ArrayList" />
@@ -198,13 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687801182901</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add array list">
-      <created>1688593067967</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1688593067967</updated>
     </task>
     <task id="LOCAL-00011" summary="add dz3">
       <created>1688593084295</created>
@@ -542,12 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1694034658701</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="13/09/23">
+      <created>1694554191511</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1694554191511</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add les_10" />
     <MESSAGE value="add les_9" />
     <MESSAGE value="add les_11" />
     <MESSAGE value="add java book code shild" />
@@ -572,7 +590,8 @@
     <MESSAGE value="05/09/23" />
     <MESSAGE value="06/09/23" />
     <MESSAGE value="06/09/23 v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="06/09/23 v2" />
+    <MESSAGE value="13/09/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="13/09/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
