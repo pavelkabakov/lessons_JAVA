@@ -2,15 +2,13 @@ package kids_store;
 
 
 import java.util.HashMap;
-import java.util.LinkedList;
+import java.util.Map;
 
 public class ToysStorage {
 
-    public ToysStorage(HashMap<String, Toy> storage) {
-        this.storage = storage;
-    }
 
-    public HashMap<String, Toy> getStorage() {
+
+    public Map<String, Toy> getStorage() {
         return storage;
     }
 
@@ -18,6 +16,31 @@ public class ToysStorage {
         this.storage = storage;
     }
 
-    private HashMap<String, Toy> storage;
+    public void addToy(String article, Toy item){
+        this.storage.put(article, item );
+    }
+
+    public void removeToy(String article){
+        this.storage.remove(article);
+    }
+
+    public void printToys(){
+        for (Map.Entry<String, Toy> item: storage.entrySet()){
+            System.out.printf("article is: %s Toy: %s \n", item.getKey(), item.getValue().getToy_name());
+        }
+    }
+
+    public ToysStorage() {
+        this.storage = storage;
+    }
+
+//    public ToysStorage(Map<String, Toy> storage) {
+//        this.storage = storage;
+//    }
+
+
+    private Map<String, Toy> storage = new HashMap<String, Toy>();
+
+
 
 }
