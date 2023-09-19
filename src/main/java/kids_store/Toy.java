@@ -10,8 +10,8 @@ public class Toy {
 
     private String article;
     private String toy_name;
-    private Integer quantity;
-    private Integer frequency;
+    private int quantity;
+    private int frequency;
 
     public Toy(String article, String toy_name, Integer quantity, Integer frequency) {
         this.article = article;
@@ -28,11 +28,11 @@ public class Toy {
         return toy_name;
     }
 
-    public Integer getQuantity() {
+    public int getQuantity() {
         return quantity;
     }
 
-    public Integer getFrequency() {
+    public int getFrequency() {
         return frequency;
     }
 
@@ -45,7 +45,7 @@ public class Toy {
         this.toy_name = toy_name;
     }
 
-    public void setQuantity(Integer quantity) {
+    public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
 
@@ -55,7 +55,7 @@ public class Toy {
      * @throws InputMismatchException
      */
 
-    public void setFrequency(Integer frequency) throws InputMismatchException {
+    public void setFrequency(int frequency) throws InputMismatchException {
 
         if (frequency > 0 & frequency < 100) {
             this.frequency = frequency; // от 0 до 100%

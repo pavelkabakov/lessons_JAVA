@@ -26,7 +26,7 @@ public class ToysStorage {
 
     public void printToys(){
         for (Map.Entry<String, Toy> item: storage.entrySet()){
-            System.out.printf("article is: %s Toy: %s \n", item.getKey(), item.getValue().getToy_name());
+            System.out.printf("article is: %s, Toy: %s, Quantity: %d, Frequency: %d \n", item.getKey(), item.getValue().getToy_name(), item.getValue().getQuantity(), item.getValue().getFrequency());
         }
     }
 
