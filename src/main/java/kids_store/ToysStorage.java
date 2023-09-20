@@ -24,6 +24,10 @@ public class ToysStorage {
         this.storage.remove(article);
     }
 
+    public Toy getToy(String article){
+        return this.storage.get(article);
+    }
+
     public void printToys(){
         for (Map.Entry<String, Toy> item: storage.entrySet()){
             System.out.printf("article is: %s, Toy: %s, Quantity: %d, Frequency: %d \n", item.getKey(), item.getValue().getToy_name(), item.getValue().getQuantity(), item.getValue().getFrequency());

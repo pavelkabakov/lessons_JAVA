@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="14/09/23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/Tree2/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/Tree2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/ex001/LLRBTREE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_2/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/EmployeeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sem_3/SortDirect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/Lottery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/PrizeStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/Toy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/ToysStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kids_store/ToysStore.java" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="20-09-23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kids_store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kids_store/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kids_store/ToysStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kids_store/ToysStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +105,7 @@
       <recent name="Les_9_std_interface.Ex002.ExBeverage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task_3">
+  <component name="RunManager">
     <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sem_3.Ex001" />
       <module name="lessons_JAVA" />
@@ -217,27 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687801182901</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add dz3">
-      <created>1688593084295</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1688593084295</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add dz4">
-      <created>1688754152526</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1688754152526</updated>
-    </task>
-    <task id="LOCAL-00013" summary="07/07/23">
-      <created>1688754267718</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1688754267718</updated>
     </task>
     <task id="LOCAL-00014" summary="sem 6 end">
       <created>1688892799582</created>
@@ -561,14 +525,32 @@
       <option name="project" value="LOCAL" />
       <updated>1694554191511</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="17/09/23">
+      <created>1694899741186</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1694899741186</updated>
+    </task>
+    <task id="LOCAL-00061" summary="написал классы склада игрушек и призов. проверил в работе">
+      <created>1695070430706</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1695070430706</updated>
+    </task>
+    <task id="LOCAL-00062" summary="20-09-23">
+      <created>1695160082389</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1695160082389</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add les_9" />
-    <MESSAGE value="add les_11" />
-    <MESSAGE value="add java book code shild" />
     <MESSAGE value="add example of abstract class" />
     <MESSAGE value="add dz 10" />
     <MESSAGE value="add Ex009" />
@@ -591,7 +573,10 @@
     <MESSAGE value="06/09/23" />
     <MESSAGE value="06/09/23 v2" />
     <MESSAGE value="13/09/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="13/09/23" />
+    <MESSAGE value="17/09/23" />
+    <MESSAGE value="написал классы склада игрушек и призов. проверил в работе" />
+    <MESSAGE value="20-09-23" />
+    <option name="LAST_COMMIT_MESSAGE" value="20-09-23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -604,6 +589,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dz_2/task_1.java</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kids_store/Main.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

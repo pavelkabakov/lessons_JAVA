@@ -2,6 +2,7 @@ package kids_store;
 
 import java.util.Map;
 import java.lang.Math;
+import java.util.Scanner;
 
 public class Main {
 
@@ -62,9 +63,23 @@ public class Main {
         System.out.println("prize toys");
         prizeStorage.printToys();
 
+        Scanner in = new Scanner(System.in);
+        System.out.println("введите артикул приза для выдачи");
+        String prize = in.nextLine();
+        getPrize(prizeStorage, prize);
+
+        System.out.println("prize toys");
+        prizeStorage.printToys();
+
 
     }
 
+    /**
+     * проведение лотереи
+     *
+     * @param toysStorage
+     * @param prizeStorage
+     */
     public static void start_lottery(ToysStorage toysStorage, ToysStorage prizeStorage) {
 
         boolean result_lottery = true;
@@ -80,8 +95,22 @@ public class Main {
                 if (i == toy_number) {
                     if (random <= (item.getValue().getFrequency())) {
                         System.out.println("выпала игрушка " + item.getValue().getToy_name());
-                        prizeStorage.addToy(item.getKey(), item.getValue());
-                        toysStorage.removeToy(item.getKey());
+
+                        if (prizeStorage.getStorage().containsKey(random)){
+                            System.out.println("уже есть, увеличиваем количество");
+                            prizeStorage.getStorage().get(random).setQuantity(prizeStorage.getStorage().get(random).getQuantity()+1);
+                        }
+                        else {
+                            System.out.println("приза нет в коробке, добавляем");
+                            prizeStorage.addToy(item.getKey(), item.getValue());
+                           prizeStorage.getToy(item.getValue().getArticle()).setQuantity(1);
+                        }
+
+                        toysStorage.getToy(item.getValue().getArticle()).setQuantity(item.getValue().getQuantity() - 1);
+                        if (item.getValue().getQuantity() == 0) {
+                            toysStorage.removeToy(item.getKey());
+                        }
+
                         result_lottery = false;
                         break;
                     }
@@ -90,4 +119,20 @@ public class Main {
             }
         }
     }
+
+    public static void getPrize(ToysStorage prizeStorage, String article) {
+        if (prizeStorage.getStorage().containsKey(article)) {
+
+            System.out.println("выдаем приз - игрушка " + prizeStorage.getStorage().get(article).getToy_name());
+            prizeStorage.getStorage().get(article).setQuantity(prizeStorage.getStorage().get(article).getQuantity() - 1);
+
+            if (prizeStorage.getStorage().get(article).getQuantity() == 0) {
+                prizeStorage.removeToy(article);
+
+            }
+        }
+    }
+
 }
+
+
