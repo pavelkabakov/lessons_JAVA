@@ -1,8 +1,12 @@
 package kids_store;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.Map;
 import java.lang.Math;
 import java.util.Scanner;
+import java.io.*;
 
 public class Main {
 
@@ -64,13 +68,18 @@ public class Main {
         System.out.println("prize toys");
         prizeStorage.printToys();
 
-//        Scanner in = new Scanner(System.in);
-//        System.out.println("введите артикул приза для выдачи");
-//        String prize = in.nextLine();
-//        getPrize(prizeStorage, prize);
-//
-//        System.out.println("prize toys");
-//        prizeStorage.printToys();
+        while (!prizeStorage.getStorage().isEmpty()) {
+            Scanner in = new Scanner(System.in);
+            System.out.println("введите артикул приза для выдачи");
+            String prize = in.nextLine();
+            getPrize(prizeStorage, prize);
+
+            System.out.println("prize toys");
+            prizeStorage.printToys();
+            if (prizeStorage.getStorage().isEmpty()){
+                System.out.println("Все призы розданы, отчет смотри в файле:prizeToys.txt \n Cпасибо!");
+            }
+        }
 
 
     }
@@ -95,26 +104,25 @@ public class Main {
             for (Map.Entry<String, Toy> item : toysStorage.getStorage().entrySet()) {
                 if (i == toy_number) {
                     if (random <= (item.getValue().getFrequency())) {
-                        System.out.println("выпала игрушка " + item.getValue().getToy_name());
-                        System.out.println("кол во игрушек на складе = " + item.getValue().getQuantity());
+                        System.out.printf("выпала игрушка %s кол во игрушек на складе %d \n", item.getValue().getToy_name(), item.getValue().getQuantity());
                         if (prizeStorage.getStorage().containsKey(item.getKey())) {
                             System.out.println("уже есть такой приз, увеличиваем количество +1");
-
 //                            System.out.println("кол во = " + prizeStorage.getStorage().get(item.getKey()).getQuantity());
-//                            prizeStorage.getStorage().get(item.getKey()).setQuantity(prizeStorage.getStorage().get(item.getKey()).getQuantity()+1);
+                            prizeStorage.getStorage().get(item.getKey()).setQuantity(prizeStorage.getStorage().get(item.getKey()).getQuantity() + 1);
                         } else {
                             System.out.println("приза нет в коробке, добавляем +1");
 
-                            prizeStorage.addToy(item.getKey(), item.getValue());
+//                            prizeStorage.addToy(item.getKey(), item.getValue());
+                            prizeStorage.copyToy(item.getKey(), item.getValue());
                             prizeStorage.getToy(item.getValue().getArticle()).setQuantity(1);
                         }
-                        item.getValue().setQuantity(item.getValue().getQuantity() - 1);
+//                        item.getValue().setQuantity(item.getValue().getQuantity() - 1);
                         toysStorage.getToy(item.getValue().getArticle()).setQuantity(item.getValue().getQuantity() - 1);
-                        System.out.printf("количество игрушки %s = %d \n", item.getValue().getToy_name(), item.getValue().getQuantity());
-//                        if ((item.getValue().getQuantity()) == 0) {
-//                            System.out.printf("артикул %s закончился, удаляем из базы \n", item.getValue().getArticle());
-//                            toysStorage.removeToy(item.getKey());
-//                        }
+                        System.out.printf("количество игрушки после уменьшения %s = %d \n", item.getValue().getToy_name(), item.getValue().getQuantity());
+                        if ((item.getValue().getQuantity()) == 0) {
+                            System.out.printf("артикул %s закончился, удаляем из базы \n", item.getValue().getArticle());
+                            toysStorage.removeToy(item.getKey());
+                        }
 
                         result_lottery = false;
                         break;
@@ -129,11 +137,23 @@ public class Main {
         if (prizeStorage.getStorage().containsKey(article)) {
 
             System.out.println("выдаем приз - игрушка " + prizeStorage.getStorage().get(article).getToy_name());
+            String text = "Выдан приз - " + "Артикул: " + prizeStorage.getStorage().get(article).getArticle() +
+                    ", Наименование: " + prizeStorage.getStorage().get(article).getToy_name() +
+                    ", Количество: 1" +"\n";
+            try(FileWriter writer = new FileWriter("prizeToys.txt", true))
+            {
+                writer.write(text);
+                System.out.println("Записываем выданный приз в файл - prizeToys.txt ");
+                writer.flush();
+            }
+            catch(IOException ex){
+                System.out.println(ex.getMessage());
+            }
             prizeStorage.getStorage().get(article).setQuantity(prizeStorage.getStorage().get(article).getQuantity() - 1);
 
             if (prizeStorage.getStorage().get(article).getQuantity() == 0) {
+                System.out.printf("призы %s закончились, удаляем из базы призов \n", prizeStorage.getStorage().get(article).getToy_name());
                 prizeStorage.removeToy(article);
-
             }
         }
     }

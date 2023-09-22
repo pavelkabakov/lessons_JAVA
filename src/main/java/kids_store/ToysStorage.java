@@ -20,6 +20,11 @@ public class ToysStorage {
         this.storage.put(article, item );
     }
 
+    public void copyToy(String article, Toy item){
+        Toy tempToy = new Toy(item.getArticle(), item.getToy_name(), item.getQuantity(), item.getFrequency());
+        this.storage.put(article, tempToy);
+    }
+
     public void removeToy(String article){
         this.storage.remove(article);
     }
