@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="20-09-23">
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="21-09-23">
+      <change afterPath="$PROJECT_DIR$/prizeToys.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kids_store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kids_store/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kids_store/ToysStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kids_store/ToysStorage.java" afterDir="false" />
@@ -202,20 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687801182901</updated>
-    </task>
-    <task id="LOCAL-00014" summary="sem 6 end">
-      <created>1688892799582</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1688892799582</updated>
-    </task>
-    <task id="LOCAL-00015" summary="дополнил семинар 6">
-      <created>1688919184858</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1688919184858</updated>
     </task>
     <task id="LOCAL-00016" summary="закончил задание к 5 сенимару">
       <created>1688937201083</created>
@@ -546,12 +533,25 @@
       <option name="project" value="LOCAL" />
       <updated>1695160082389</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="21-09-23">
+      <created>1695243606618</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1695243606618</updated>
+    </task>
+    <task id="LOCAL-00064" summary="21-09-23">
+      <created>1695358710760</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1695358710761</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add example of abstract class" />
     <MESSAGE value="add dz 10" />
     <MESSAGE value="add Ex009" />
     <MESSAGE value="add dz_8" />
@@ -576,7 +576,8 @@
     <MESSAGE value="17/09/23" />
     <MESSAGE value="написал классы склада игрушек и призов. проверил в работе" />
     <MESSAGE value="20-09-23" />
-    <option name="LAST_COMMIT_MESSAGE" value="20-09-23" />
+    <MESSAGE value="21-09-23" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-09-23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,11 +590,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dz_2/task_1.java</url>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kids_store/Main.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
