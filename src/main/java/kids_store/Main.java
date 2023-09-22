@@ -81,7 +81,6 @@ public class Main {
             }
         }
 
-
     }
 
     /**
@@ -96,34 +95,26 @@ public class Main {
         while (result_lottery) {
 //            System.out.println("начало тиража");
             int random = (int) (1 + (Math.random() * 100));
-//            int random = 60; // for test
-//            System.out.println("вероятность выпадания игрушки = " + random);
             int i = 1; // счетчик
             int toy_number = (int) (Math.random() * toysStorage.getStorage().size() + 1);
-//            System.out.println("выпала игрушка номер = " + toy_number);
             for (Map.Entry<String, Toy> item : toysStorage.getStorage().entrySet()) {
                 if (i == toy_number) {
                     if (random <= (item.getValue().getFrequency())) {
                         System.out.printf("выпала игрушка %s кол во игрушек на складе %d \n", item.getValue().getToy_name(), item.getValue().getQuantity());
                         if (prizeStorage.getStorage().containsKey(item.getKey())) {
                             System.out.println("уже есть такой приз, увеличиваем количество +1");
-//                            System.out.println("кол во = " + prizeStorage.getStorage().get(item.getKey()).getQuantity());
                             prizeStorage.getStorage().get(item.getKey()).setQuantity(prizeStorage.getStorage().get(item.getKey()).getQuantity() + 1);
                         } else {
                             System.out.println("приза нет в коробке, добавляем +1");
-
-//                            prizeStorage.addToy(item.getKey(), item.getValue());
-                            prizeStorage.copyToy(item.getKey(), item.getValue());
+                           prizeStorage.copyToy(item.getKey(), item.getValue());
                             prizeStorage.getToy(item.getValue().getArticle()).setQuantity(1);
                         }
-//                        item.getValue().setQuantity(item.getValue().getQuantity() - 1);
                         toysStorage.getToy(item.getValue().getArticle()).setQuantity(item.getValue().getQuantity() - 1);
                         System.out.printf("количество игрушки после уменьшения %s = %d \n", item.getValue().getToy_name(), item.getValue().getQuantity());
                         if ((item.getValue().getQuantity()) == 0) {
                             System.out.printf("артикул %s закончился, удаляем из базы \n", item.getValue().getArticle());
                             toysStorage.removeToy(item.getKey());
                         }
-
                         result_lottery = false;
                         break;
                     }
