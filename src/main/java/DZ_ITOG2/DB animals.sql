@@ -42,7 +42,49 @@ INSERT INTO PackAnimals (id, AnimalsName, AnimalsType, BirthDate, Commands) VALU
 (7, 'Blaze', 'Horse', '2016-02-29','Trot, Jump, Gallop'),
 (8, 'Sahara', 'Camel', '2015-08-14','Walk, Run');
 
-SELECT *
+SELECT AnimalsName, AnimalsType, BirthDate, Commands, "Pets" AS podclass
 FROM Pets
-UNION SELECT *
+UNION SELECT AnimalsName, AnimalsType, BirthDate, Commands, "PackAnimals" AS podclass
 FROM PackAnimals;
+
+DROP TABLE IF EXISTS YoungAnimals;
+CREATE TABLE YoungAnimals AS
+SELECT
+    id,
+    AnimalsName,
+    AnimalsType,
+    BirthDate,
+    TIMESTAMPDIFF(MONTH, BirthDate, CURDATE()) AS AgeInMonths
+FROM
+    (SELECT * FROM Pets UNION ALL SELECT * FROM PackAnimals) AS AllAnimals
+WHERE
+    TIMESTAMPDIFF(YEAR, BirthDate, CURDATE()) BETWEEN 1 AND 3;
+    
+SELECT * FROM YoungAnimals;
+
+-- Создаем новую таблицу
+DROP TABLE IF EXISTS AllAnimals;
+CREATE TABLE AllAnimals (
+	id BIGINT UNSIGNED NOT NULL,
+    AnimalsName VARCHAR(50),
+    AnimalsType VARCHAR(50),
+    BirthDate DATE,
+    Commands VARCHAR(50),
+    SourceTable VARCHAR(50), -- Добавляем новый столбец для исходной таблицы
+    PRIMARY KEY(id, SourceTable) -- Комбинированный первичный ключ
+);
+
+-- Вставляем данные из таблицы Pets
+INSERT INTO AllAnimals (id, AnimalsName, AnimalsType, BirthDate, Commands, SourceTable)
+SELECT id, AnimalsName, AnimalsType, BirthDate, Commands, 'Pets'
+FROM Pets;
+
+-- Вставляем данные из таблицы PackAnimals
+INSERT INTO AllAnimals (id, AnimalsName, AnimalsType, BirthDate, Commands, SourceTable)
+SELECT id, AnimalsName, AnimalsType, BirthDate, Commands, 'PackAnimals'
+FROM PackAnimals;
+
+-- Удаляем записи о верблюдах
+DELETE FROM AllAnimals WHERE AnimalsType = 'Camel';
+
+SELECT * FROM AllAnimals;

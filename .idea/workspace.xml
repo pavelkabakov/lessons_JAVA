@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="22-09-23 - удалил лишнее">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/.$class_diagramm.drawio.bkp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/DB animals.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/DB for dz_itog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/class_diagramm.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Итоговая контрольная работа - задание.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Итоговая контрольная работа - решение.docx" afterDir="false" />
+    <list default="true" id="eb7ca6b1-a93b-42a7-8445-7e8f84659790" name="Changes" comment="05-01-2024">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/AnimalRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/~$оговая контрольная работа - решение.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/~WRL0619.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/корзина/DB for dz_itog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/корзина/Итоговая контрольная работа - задание.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web_server/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web_server/untitled/src/main/java/ru/geekbrains/WebServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizeToys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prizeToys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/DB animals.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/DB animals.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/DB for dz_itog.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/class_diagramm.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/class_diagramm.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Итоговая контрольная работа - задание.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Итоговая контрольная работа - решение.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_ITOG2/Итоговая контрольная работа - решение.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +118,7 @@
       <recent name="Les_9_std_interface.Ex002.ExBeverage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task_3">
+  <component name="RunManager">
     <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sem_3.Ex001" />
       <module name="lessons_JAVA" />
@@ -208,20 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687801182901</updated>
-    </task>
-    <task id="LOCAL-00020" summary="14/04/23 some update">
-      <created>1689366993693</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1689366993693</updated>
-    </task>
-    <task id="LOCAL-00021" summary="15/04/23 end sem_7">
-      <created>1689436281698</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1689436281698</updated>
     </task>
     <task id="LOCAL-00022" summary="16/04/23 add Ex001">
       <created>1689492801758</created>
@@ -552,12 +545,25 @@
       <option name="project" value="LOCAL" />
       <updated>1695412839156</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="05-01-2024">
+      <created>1704476365243</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1704476365243</updated>
+    </task>
+    <task id="LOCAL-00070" summary="05-01-2024">
+      <created>1704476425619</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1704476425619</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add dz_8" />
     <MESSAGE value="dz_9 create" />
     <MESSAGE value="add dz_11" />
     <MESSAGE value="01/08/23" />
@@ -582,7 +588,8 @@
     <MESSAGE value="21-09-23" />
     <MESSAGE value="22-09-23 - добавил запись выданных призов в текстовый файл" />
     <MESSAGE value="22-09-23 - удалил лишнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="22-09-23 - удалил лишнее" />
+    <MESSAGE value="05-01-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="05-01-2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
